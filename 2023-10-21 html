@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>多进程和多线程数据获取测试</title>
+</head>
+<body>
+
+<h1>多进程和多线程数据获取测试</h1>
+
+<p>
+  2023 年 10 月 23 日，我测试了多进程和多线程的方法获取数据。
+</p>
+
+<p>
+  测试结果表明，多线程相对稳定，使用 threading 的速度最快。
+</p>
+
+<h2>测试方法</h2>
+
+<p>
+  测试方法如下：
+</p>
+
+<ul>
+  <li>使用 Python 的 threading、multiprocessing 和 concurrent.futures 模块编写三种获取数据的代码。</li>
+  <li>使用相同的测试数据进行测试。</li>
+  <li>记录测试结果，包括获取数据的速度和稳定性。</li>
+</ul>
+
+<h2>测试结果</h2>
+
+<p>
+  测试结果如下：
+</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>方法</th>
+      <th>速度</th>
+      <th>稳定性</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>threading</td>
+      <td>最快</td>
+      <td>相对稳定</td>
+    </tr>
+    <tr>
+      <td>multiprocessing</td>
+      <td>较慢</td>
+      <td>相对稳定</td>
+    </tr>
+    <tr>
+      <td>concurrent.futures</td>
+      <td>最慢</td>
+      <td>较不稳定</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>结论</h2>
+
+<p>
+  总体而言，多线程的方法是最适合获取数据的方法。它具有速度快、稳定性好的优点。
+</p>
+
+</body>
+</html>
