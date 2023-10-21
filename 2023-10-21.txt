@@ -1,0 +1,5 @@
+2023.10.23
+
+1、测试了多进程和多线程的方法获取数据, 多线程相对稳定.
+让AI给了三种方式threading，multiprocessing，concurrent.futures的包编写代码
+使用threading的速度最快
